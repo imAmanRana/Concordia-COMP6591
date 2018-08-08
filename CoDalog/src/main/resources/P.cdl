@@ -1,0 +1,5 @@
+edge(0,1).
+edge(1,2).
+edge(2,3).
+path(X,Y):-edge(X,Y).
+path(X,Y):-path(X,Z),path(Z,Y).

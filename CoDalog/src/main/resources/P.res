@@ -1,0 +1,9 @@
+edge(0,1).
+path(0,1).
+path(0,2).
+path(1,2).
+path(0,3).
+path(1,3).
+edge(2,3).
+path(2,3).
+edge(1,2).
